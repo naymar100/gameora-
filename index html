@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gameora - أفضل الألعاب</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>مرحباً بك في Gameora</h1>
+    <p>أفضل الألعاب العالمية في مكان واحد</p>
+  </header>
+
+  <section class="trending">
+    <h2>Trending Games in the USA</h2>
+    <ul>
+      <li>Call of Duty®: <a href="https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter">Android</a> | <a href="https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214">iOS</a></li>
+      <li>Roblox: <a href="https://play.google.com/store/apps/details?id=com.roblox.client">Android</a> | <a href="https://apps.apple.com/us/app/roblox/id431946152">iOS</a></li>
+      <li>Subway Surfers: <a href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf">Android</a> | <a href="https://apps.apple.com/us/app/subway-surfers/id512939461">iOS</a></li>
+    </ul>
+  </section>
+
+  <section class="download-form">
+    <h2>احصل على رابط التحميل في بريدك</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="email" name="email" placeholder="بريدك الإلكتروني" required />
+      <button type="submit">أرسل لي الرابط</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gameora. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
